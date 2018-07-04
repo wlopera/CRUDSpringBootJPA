@@ -10,6 +10,8 @@ angular.module('ProductApp').controller('ProductController', ['$scope', 'Product
 	self.acionProducto = ""; 	// Variable para mostrar tipo de producto cultivado/importado
 	self.productos = {};     	// Productos encontrados en la consulta
 	self.message = "";
+	
+	self.menuSuperior = '../../view/menu.html';
 
 	// Permite consultar cantidad de productos cultivados
 	self.growProduct = function() {
